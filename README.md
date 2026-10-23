@@ -1,7 +1,5 @@
 # TicketFlow
 
-Español · [English](README.md)
-
 Sistema de gestión de tickets de soporte construido con **arquitectura hexagonal**. Los clientes abren tickets, los agentes los trabajan y los administradores supervisan. Cada ticket recibe una fecha límite de SLA según su prioridad, una tarea programada marca los tickets vencidos y los eventos del dominio se publican en **Kafka**.
 
 **Stack:** Java 21 · Spring Boot 4 · Spring Security + JWT · PostgreSQL · Flyway · Apache Kafka · Docker Compose · JUnit 5 + Mockito
